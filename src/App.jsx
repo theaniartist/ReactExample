@@ -3,11 +3,11 @@ import React from "react";
 
 class App extends React.Component {
   render() {
-    const { name } = this.props;
+    const { name, test } = this.props;
     return (
       <>
         <h1>
-          Hello {name}
+          Hello {name}. Test: {test}
         </h1>
       </>
     );
